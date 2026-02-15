@@ -1,0 +1,16 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#map {
+    height: 100vh; /* Takes up 100% of the viewport height */
+    width: 100%;
+}
+
+/* You can add custom styles for popups here later */
+.leaflet-popup-content {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
