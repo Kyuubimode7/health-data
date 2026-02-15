@@ -7,7 +7,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // 2. Supabase Connection Details (Replace these with your keys!)
 const SB_URL = "https://lvskapwvphgbleqxyzvd.supabase.co"; 
-const SB_KEY = "sb_publishable__dFLLpych1hftXXgm2V7gQ__tqaWpy9";
+const SB_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx2c2thcHd2cGhnYmxlcXh5enZkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzExMjQ4MzAsImV4cCI6MjA4NjcwMDgzMH0.NMSsGYttv50Qk-M6dQQw_OwBC2JyqZw9SDwwc7zgAKE";
 
 async function loadData() {
     console.log("Starting fetch request to Supabase...");
