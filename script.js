@@ -6,8 +6,8 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // 2. Supabase Connection Details
-const SB_URL = "YOUR_PROJECT_URL";
-const SB_KEY = "YOUR_ANON_KEY";
+const SB_URL = "https://lvskapwvphgbleqxyzvd.supabase.co";
+const SB_KEY = "sb_publishable__dFLLpych1hftXXgm2V7gQ__tqaWpy9";
 
 // 3. The Function to get data
 async function loadData() {
